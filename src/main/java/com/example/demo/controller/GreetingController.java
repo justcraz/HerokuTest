@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
     @RequestMapping("/hello")
     String sayhello(){
-        return "<h2>hello from controller<>=/h2";
+        return "<h2>hello from controller</h2";
     }
 }
